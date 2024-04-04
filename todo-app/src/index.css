@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: lato, sans-serif, Inter;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2b3244;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-bg: #19212a;
+  --color-priority-low: #008000;
+  --color-priority-med: #c69546;
+  --color-priority-high: #a33b3b;
+  --color-submit: #3ba395;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-family: lato, sans-serif, Inter;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+textarea {
+  font-family: lato, sans-serif, Inter;
+}
+
+textarea:focus {
+  outline: none;
+}

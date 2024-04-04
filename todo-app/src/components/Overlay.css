@@ -1,0 +1,22 @@
+.overlay-new {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+}
+
+.overlay-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+}

@@ -1,0 +1,112 @@
+.create-new__input {
+    font-size: 0.8rem;
+    background-color: transparent;
+    color: #141414;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+#create-new__description {
+    margin-bottom: auto;
+    height: 12rem;
+}
+
+.create-new__priority {
+    display: flex;
+    align-items: center;
+}
+
+.create-new__priority-title {
+    font-size: 0.9rem;
+    margin-right: 1.4rem;
+}
+
+.create-new__priority 
+input[type="radio"] {
+    position: relative;
+    left: 1.2rem;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+.create-new__priority-submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-new__task-submit {
+    text-align: center;
+    align-self: center;
+    padding: 0.3rem 0.4rem;
+    border-radius: 3px;
+    border: 1px solid var(--color-submit);
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-submit);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.create-new__priority-btn {
+    display: inline-block;
+    margin: 0 0.5rem 0 -5px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.create-new__priority-btn:hover {
+    color: #eee;
+}
+
+.create-new__priority-btn-low {
+    border: 1px solid var(--color-priority-low);
+    color: var(--color-priority-low);
+}
+
+.create-new__priority-btn-low-active {
+    background-color: var(--color-priority-low);
+    color: #eee;
+}
+
+.create-new__priority-btn-low:hover {
+    background-color: var(--color-priority-low);;
+}
+
+.create-new__priority-btn-medium {
+    border: 1px solid var(--color-priority-med);
+    color: var(--color-priority-med);
+}
+
+.create-new__priority-btn-medium-active {
+    background-color: var(--color-priority-med);
+    color: #eee;
+}
+
+.create-new__priority-btn-medium:hover {
+    background-color: var(--color-priority-med);;
+}
+
+.create-new__priority-btn-high {
+    border: 1px solid var(--color-priority-high);
+    color: var(--color-priority-high);
+}
+
+.create-new__priority-btn-high-active {
+    background-color: var(--color-priority-high);
+    color: #eee;
+}
+
+.create-new__priority-btn-high:hover {
+    background-color: var(--color-priority-high);;
+}
