@@ -84,17 +84,17 @@ input[type="radio"] {
 }
 
 .create-new__priority-btn-medium {
-    border: 1px solid var(--color-priority-med);
-    color: var(--color-priority-med);
+    border: 1px solid var(--color-priority-medium);
+    color: var(--color-priority-medium);
 }
 
 .create-new__priority-btn-medium-active {
-    background-color: var(--color-priority-med);
+    background-color: var(--color-priority-medium);
     color: #eee;
 }
 
 .create-new__priority-btn-medium:hover {
-    background-color: var(--color-priority-med);;
+    background-color: var(--color-priority-medium);;
 }
 
 .create-new__priority-btn-high {
