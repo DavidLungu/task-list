@@ -26,7 +26,7 @@ const Task = ({task, deleteTask, editTask, viewTask}) => {
 <div className={`task priority-${isTaskCompleted ? "" : priority}`} onClick={() => {viewTask(task)}}>
     <button className={`task-complete ${ isTaskCompleted ? 'task-complete__checked' : ''}`} onClick={ (e) => { e.stopPropagation(); setTaskCompleted(!isTaskCompleted) }}/>
     <h1 className={`task-name ${ isTaskCompleted ? 'task-name__checked' : ''}`}>{displayText(taskName, 20)}</h1>
-    <p className={`task-description ${ isTaskCompleted ? 'task-name__checked' : ''}`}>{displayText(taskDescription, 100)}</p>
+    <p className={`task-description ${ isTaskCompleted ? 'task-name__checked' : ''}`}>{displayText(taskDescription, 60)}</p>
     <button className="task-delete" onClick={ (e) => { e.stopPropagation(); deleteTask(task.id) }}><FaTrashAlt /></button>
 </div>
     </>
